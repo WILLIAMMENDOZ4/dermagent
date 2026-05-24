@@ -1,0 +1,7 @@
+streamlit
+onnxruntime
+numpy
+pillow
+gdown
+sentence-transformers
+torch
