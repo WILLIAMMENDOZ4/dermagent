@@ -358,7 +358,7 @@ with col2:
 
 with col3:
     st.markdown("#### 💬 Pregúntale al asistente")
-    st.markdown('<span class="nlp-badge">🧠 NLP Semántico con Transformers</span>', unsafe_allow_html=True)
+    st.markdown('<span class="nlp-badge">🧠 </span>', unsafe_allow_html=True)
     chat_container = st.container(height=400)
     with chat_container:
         if not st.session_state.chat_messages:
