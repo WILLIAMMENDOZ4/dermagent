@@ -6,7 +6,7 @@ import os
 import gdown
 from sentence_transformers import SentenceTransformer, util
 
-MODEL_PATH    = 'modelo_piel.onnx'
+MODEL_PATH    = 'modelo_piel_v3.onnx'
 
 # ── Validador de imagen dermatológica ────────────────────────────────────────
 def es_imagen_dermatologica(img: Image.Image) -> tuple[bool, str]:
