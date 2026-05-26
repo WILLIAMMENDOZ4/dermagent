@@ -203,7 +203,7 @@ st.set_page_config(page_title="DermAI", page_icon="🩺", layout="wide")
 
 st.markdown("""
 <style>
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
 html, body, [class*="css"] { font-family: 'Inter', sans-serif; background: #f8fafc; color: #1e293b; }
 .header { background: #ffffff; border-bottom: 1px solid #e2e8f0; padding: 1rem 2rem; display: flex; align-items: center; gap: 16px; margin-bottom: 1.5rem; }
 .header-logo { width: 42px; height: 42px; background: #0f172a; border-radius: 10px; display: flex; align-items: center; justify-content: center; color: white; font-size: 20px; }
@@ -212,8 +212,11 @@ html, body, [class*="css"] { font-family: 'Inter', sans-serif; background: #f8fa
 .badge { display: inline-block; padding: 2px 10px; border-radius: 20px; font-size: 0.72rem; font-weight: 500; }
 .badge-blue { background: #eff6ff; color: #1d4ed8; border: 1px solid #bfdbfe; }
 .badge-green { background: #f0fdf4; color: #15803d; border: 1px solid #bbf7d0; }
+.badge-red { background: #fef2f2; color: #b91c1c; border: 1px solid #fecaca; }
 .card { background: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 1.2rem; margin-bottom: 1rem; }
 .card-title { font-size: 0.75rem; font-weight: 600; color: #64748b; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.5rem; }
+.diag-name { font-size: 1.3rem; font-weight: 600; color: #0f172a; margin: 0.2rem 0; }
+.diag-tipo { font-size: 0.8rem; color: #64748b; }
 .stat-row { display: flex; gap: 8px; margin: 0.8rem 0; }
 .stat-box { flex: 1; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 0.6rem; text-align: center; }
 .stat-val { font-size: 1.1rem; font-weight: 600; color: #0f172a; }
@@ -233,7 +236,7 @@ html, body, [class*="css"] { font-family: 'Inter', sans-serif; background: #f8fa
 .abcde-item { flex: 1; background: white; border: 1px solid #bae6fd; border-radius: 6px; padding: 0.4rem; text-align: center; }
 .abcde-letter { font-size: 1rem; font-weight: 700; color: #0284c7; }
 .abcde-word { font-size: 0.62rem; color: #64748b; }
-.stButton > button { background: #0f172a !important; color: white !important; border: 2px solid #334155 !important; border-radius: 8px !important; padding: 0.5rem 1.5rem !important; font-weight: 600 !important; width: 100% !important; font-size: 0.9rem !important; }
+.stButton > button { background: #0f172a !important; color: white !important; border: none !important; border-radius: 8px !important; padding: 0.5rem 1.5rem !important; font-weight: 500 !important; width: 100% !important; font-size: 0.9rem !important; }
 </style>
 """, unsafe_allow_html=True)
 
