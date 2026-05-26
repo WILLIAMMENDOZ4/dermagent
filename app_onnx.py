@@ -6,7 +6,7 @@ import os
 import gdown
 from sentence_transformers import SentenceTransformer, util
 
-MODEL_PATH    = 'modelo_piel.onnx'
+MODEL_PATH    = 'modelo_piel_v3.onnx'
 DRIVE_FILE_ID = '1l1CjsAkzsdKjoShFMRbLFa4eMEgUHqbI'
 IMAGE_SIZE    = 299
 CLASES        = ['akiec', 'bcc', 'bkl', 'df', 'mel', 'nv', 'vasc']
